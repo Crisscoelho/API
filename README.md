@@ -26,11 +26,11 @@ Banco de dados postgre(https://dbdiagram.io/d/6541641c7d8bbd64653a4ba2
 
 
 #Busca todos os bancos
-<imagens src=/assets/imagens.png/Get banks.png">
+<img src=/assets/imagens.png/Get banks.png">
 
 #Busca todas as contas
-<imagens src=/assets/imagens.png/Get accounts.png">
+<img src=/assets/imagens.png/Get accounts.png">
 
 #Busca todas os clientes
-<imagens src=/assets/imagens.png/Get customers.png">
+<img src=/assets/imagens.png/Get customers.png">
 
