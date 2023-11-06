@@ -12,4 +12,5 @@ type Transaction struct {
 	DebitedAmount           int `sql:"debited_amount, type:numeric(10,2)"`
 	RunningBalance          int `sql:"running_balance, type:numeric(10,2)"`
 	OtherPartyAccountNumber int `sql:"other_party_account_number, type:int "`
+	Check                   int `json:"transaction_type"`
 }

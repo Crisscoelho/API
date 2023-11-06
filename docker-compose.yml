@@ -8,15 +8,4 @@ services:
       - POSTGRES_DB=postgres      
     ports:
       - "5432:5432"
-    volumes:
-      - ./migration/docker-database.sql:/docker-entrypoint-databasedb.d/docker-database.sql   
-
-  pgadmin-compose:
-    image: dpage/pgadmin4
-    environment:
-      PGADMIN_DEFAULT_EMAIL: "email@email.com"
-      PGADMIN_DEFAULT_PASSWORD: "123456"
-    ports:
-      - "54321:80"
-    depends_on:
-      - postgres
+   
